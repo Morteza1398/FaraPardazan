@@ -6,8 +6,8 @@ const router = express.Router();
 //router.use('/admin' , adminRouter);
 
 // Home Router
-//const homeRouter = require('app/routes/web/home');
-//router.use('/' , homeRouter);
+const homeRouter = require('app/routes/web/home');
+router.use('/' , homeRouter);
 
 
 
