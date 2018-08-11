@@ -14,22 +14,21 @@ const passport = require('passport');
 module.exports = class Application {
     constructor() {
         this.setupExpress();
-        this.setRouters();
         this.setMongoConnection();
         this.setConfig();
+        this.setRouters();
     }
+
     setupExpress() {
         const server = http.createServer(app);
         server.listen(3000 , () => console.log('Listening on port 3000'));
     }
-    setRouters() {
-        app.use(require('app/routes/api'));
-        app.use(require('app/routes/web'));        
-    }
+
     setMongoConnection() {
         mongoose.Promise = global.Promise;
         mongoose.connect('mongodb://localhost/nodejscms');
     }
+
     /**
      * Express Config
      */
@@ -49,5 +48,10 @@ module.exports = class Application {
         }));
         app.use(cookieParser('mysecretkey'));
         app.use(flash());
+    }
+
+    setRouters() {
+        app.use(require('app/routes/api'));
+        app.use(require('app/routes/web'));        
     }
 }
