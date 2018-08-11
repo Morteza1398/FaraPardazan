@@ -18,17 +18,21 @@
   "homepage": "https://github.com/Morteza1398/FaraPardazan#readme",
   "dependencies": {
     "app-module-path": "^2.2.0",
+    "auto-bind": "^1.2.1",
     "body-parser": "^1.18.3",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^2.0.1",
     "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
     "express-validator": "^5.3.0",
     "http": "0.0.0",
     "mongoose": "^5.2.7",
-    "nodemon": "^1.18.3",
     "passport": "^0.4.0",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   }
 }
