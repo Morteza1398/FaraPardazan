@@ -1,0 +1,52 @@
+    <div class="d-flex justify-content-between align-items-center mb-3 pb-2 border-bottom">
+        <h2>ویرایش فعالیت</h2>
+    </div>
+    <form class="form-horizontal" action="/admin/tasks/<%= task._id %>?_method=put" method="post" enctype="multipart/form-data">
+
+        <%- include(viewPath('layouts/error-messages')) -%>
+
+        <div class="form-group row">
+            <div class="col">
+                <label for="title" class="control-label font-weight-bold">عنوان فعالیت</label>
+                <input type="text" class="form-control" name="title" id="title" placeholder="عنوان را وارد کنید" value="<%= task.title %>">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col">
+                <label for="goal" class="control-label font-weight-bold">هدف فعالیت</label>
+                <input type="text" class="form-control" name="goal" id="goal" placeholder="هدف از انجام فعالیت را وارد کنید" value="<%= task.goal %>">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col">
+                <label for="assignto" class="control-label font-weight-bold font-weight-bold">محول شده به </label>
+                <select name="assignto" id="assignto" class="form-control">
+                <% users.forEach(user => { %> 
+                    <option value="<%= user.name %>"  <%= user.name == task.assignto ? 'selected' : '' %>  ><%= user.name %></option>                        
+                <% }) %>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+          <div class="col">
+              <label for="body" class="control-label font-weight-bold">توضیحات</label>
+              <textarea rows="5" class="form-control" name="body" id="body" placeholder="متن مقاله را وارد کنید"><%= task.body %></textarea>
+          </div>
+        </div>
+        <div class="form-group row">
+            <div class="col">
+                <button type="submit" class="btn btn-danger">ثبت تغییرات</button>
+            </div>
+        </div>
+    </form>
+
+<link rel="stylesheet" href="/css/component-chosen.min.css">
+<script src="/ckeditor/ckeditor.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.6/chosen.jquery.min.js"></script>
+<script>
+        CKEDITOR.replace('body' , {
+            filebrowserUploadUrl : '/admin/upload-image'
+        })
+   
+       $('.form-control-chosen').chosen({});
+   </script>

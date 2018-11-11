@@ -1,0 +1,43 @@
+<div class="d-flex justify-content-between align-items-center mb-3 border-bottom-1">
+        <h2>فعالیت ها</h2>
+        <div class="btn-group">
+            <a href="/admin/tasks/create" class="btn btn-sm btn-primary">ایجاد فعالیت جدید</a>
+            <a href="/admin/episodes" class="btn btn-sm btn-danger">بخش ویدیوها</a>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+                <th>عنوان فعالیت</th>
+                <th>هدف فعالیت </th>
+                <th>محول شده به </th>
+                <th>توضیحات</th>
+            </tr>
+            </thead>
+            <tbody>
+                <% tasks.docs.forEach(task => { %> 
+                    <tr>
+                        <td><a href="/tasks/"><%= task.title %></a></td>
+                        <td><%= task.goal %></td>
+                        <td><%= task.assignto %></td>
+                        <td>
+                            <%= task.body %>
+                        </td>
+                        <td>
+                            <form action="/admin/tasks/<%= task._id %>?_method=DELETE" method="post">
+                                <div class="btn-group btn-group-sm">
+                                    <a href="/admin/tasks/<%= task._id %>/edit"  class="btn btn-primary">ویرایش</a>
+                                    <button type="submit" class="btn btn-danger">حذف</button>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+
+        <%- include(viewPath('layouts/pagination') ,{ pagination : tasks}) %>
+    </div>
+    
+    
