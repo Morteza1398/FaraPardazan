@@ -1,8 +1,22 @@
 {
 	"title": "پرتال داخلی مکعب آبی",
 	"description": "سامانه ارطباتات داخلی شرکت فرا پردازان مکعب آبی",
-	"task":{
+	"task": {
 		"title": "مدیریت فعالیت ها",
 		"description": "سامانه فعالیت های اعضای شرکت فراپردازان نکعب آبی"
+	},
+	"home": {
+		"name": "خانه",
+		"title": "انعکاس عدالت",
+		"description": "موسسه حقوقی اعکعاس عدالت ",
+		"button": "مشاوره رایگان",
+		"description1": "home.description1",
+		"description2": "home.description2"
+	},
+	"about": {
+		"name": "درباره ما",
+		"title": "Who We Are",
+		"descriptionp1": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+		"descriptionp2": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
 	}
 }

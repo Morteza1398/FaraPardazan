@@ -1,7 +1,19 @@
 {
 	"title": "Blue Cube Internal Portal",
 	"description": "blue cube company internal portal system.",
-	"valid" : {
-		"min" : "afasf"
+	"valid": {
+		"min": "afasf"
+	},
+	"home": {
+		"name": "Home",
+		"title": "Enekas Edalat",
+		"description": "Enekas Edalat law firm",
+		"button": "Free Consultation"
+	},
+	"about": {
+		"name": "About",
+		"title": "Who We Are",
+		"descriptionp1": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+		"descriptionp2": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
 	}
 }
