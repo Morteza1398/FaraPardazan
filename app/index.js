@@ -30,7 +30,7 @@ const rememberLogin = require('app/http/middleware/rememberLogin');
 //     text: 'That was easy!'
 //   };
 
-const sendMail = require('app/helpers/sendEmail');
+//const sendMail = require('app/helpers/sendEmail');
 
 
 module.exports = class Application {

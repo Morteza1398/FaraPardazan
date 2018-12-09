@@ -1,9 +1,6 @@
 {
 	"title": "Blue Cube Internal Portal",
 	"description": "blue cube company internal portal system.",
-	"valid": {
-		"min": "afasf"
-	},
 	"home": {
 		"name": "Home",
 		"title": "Enekas Edalat",
@@ -14,6 +11,86 @@
 		"name": "About",
 		"title": "Who We Are",
 		"descriptionp1": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
-		"descriptionp2": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+		"descriptionp2": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+		"p1": {
+			"title": "Group of Lawyers",
+			"description": "Group of Lawyers.description"
+		},
+		"p2": {
+			"title": "No One is Above The Law",
+			"description": "No One is Above The Law.description"
+		},
+		"p3": {
+			"title": "Hall of Justice",
+			"description": "Hall of Justice.description"
+		},
+		"consultation": {
+			"title": "Free Consultation",
+			"description": "Free Consultation.description",
+			"button": "GET STARTED"
+		}
+	},
+	"why": {
+		"name": "why Us",
+		"title": "why Us",
+		"description": "why.description",
+		"p1": {
+			"title": "Property & Business Law",
+			"description": "Property & Business Law.description"
+		},
+		"p2": {
+			"title": "Famimly Law",
+			"description": "Famimly Law.description"
+		},
+		"p3": {
+			"title": "Commercial Litigation",
+			"description": "Commercial Litigation.description"
+		},
+		"p4": {
+			"title": "Injury Compensation",
+			"description": "Injury Compensation.description"
+		},
+		"i1": {
+			"title": "Criminal Law",
+			"description": "Read More"
+		},
+		"i2": {
+			"title": "Migration Law",
+			"description": "Read More"
+		},
+		"i3": {
+			"title": "Civil Rights",
+			"description": "Read More"
+		},
+		"i4": {
+			"title": "Property Law",
+			"description": "Read More"
+		},
+		"area": {
+			"name": "حوزه کاری",
+			"title": "حوزه کاری انعکاس عدالت",
+			"description": "توضضیحات ",
+			"button": "مشاوره رایگان",
+			"p1": {
+				"title": "Criminal Law",
+				"description": "Criminal Law.description"
+			},
+			"p2": {
+				"title": "Financial Law",
+				"description": "Financial Law.description"
+			},
+			"p3": {
+				"title": "Cyber Crime Law",
+				"description": "Cyber Crime Law.description"
+			},
+			"p4": {
+				"title": "Real Estate Law",
+				"description": "Real Estate Law.description"
+			},
+			"p5": {
+				"title": "Family Law",
+				"description": "Family Law.description"
+			}
+		}
 	}
 }

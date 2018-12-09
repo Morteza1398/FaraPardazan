@@ -44,8 +44,8 @@
             <div class="media pb_media_v2 d-block text-center mb-3">
               <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-jury"></i></div>
               <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Group of Lawyers</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3 class="mt-0 pb_font-20"><%= __('about.p1.title') %></h3>
+                <p><%= __('about.p1.description') %></p>
               </div>
             </div>
           </div>
@@ -53,8 +53,8 @@
             <div class="media pb_media_v2 d-block text-center  mb-3">
               <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-law"></i></div>
               <div class="media-body">
-                <h3 class="mt-0 pb_font-20">No One is Above The Law</h3>
-                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <h3 class="mt-0 pb_font-20"><%= __('about.p2.title') %></h3>
+                <p><%= __('about.p2.description') %></p>
               </div>
             </div>
           </div>
@@ -62,8 +62,8 @@
             <div class="media pb_media_v2 d-block text-center  mb-3">
               <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-courthouse"></i></div>
               <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Hall of Justice</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="mt-0 pb_font-20"><%= __('about.p3.title') %></h3>
+                <p><%= __('about.p3.description') %></p>
               </div>
             </div>
           </div>
@@ -77,9 +77,9 @@
 
         <div class="row align-items-center">
           <div class="col-md-12">
-            <h2 class="heading mb-3">Free Consultation</h2>
-            <p class="sub-heading mb-5 pb_color-light-opacity-8">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Get Started</a></p>
+            <h2 class="heading mb-3"><%= __('about.consultation.title') %></h2>
+            <p class="sub-heading mb-5 pb_color-light-opacity-8"><%= __('about.consultation.description') %></p>
+            <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2"><%= __('about.consultation.button') %></a></p>
           </div>  
         </div>
 
@@ -91,8 +91,8 @@
       <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Why Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <h2 class="mt-0 heading-border-top font-weight-normal"><%= __('why.title') %></h2>
+            <p><%= __('why.description') %></p>
           </div>
         </div>
         <div class="row">
@@ -105,28 +105,27 @@
           <div class="col-lg-5 pl-md-5 pl-sm-0">
             <div id="exampleAccordion" class="pb_accordion" data-children=".item">
               <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1" class="pb_font-18">Property &amp; Business Law</a>
+                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1" class="pb_font-18"><%= __('why.p1.title') %></a>
                 <div id="exampleAccordion1" class="collapse show" role="tabpanel">
-                  <p>Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                  <p><%= __('why.p1.description') %></p>
                 </div>
               </div>
               <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" aria-expanded="false" aria-controls="exampleAccordion2" class="pb_font-18">Famimly Law</a>
+                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" aria-expanded="false" aria-controls="exampleAccordion2" class="pb_font-18"><%= __('why.p2.title') %></a>
                 <div id="exampleAccordion2" class="collapse" role="tabpanel">
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                  <p><%= __('why.p2.description') %></p>
                 </div>
               </div>
               <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="false" aria-controls="exampleAccordion3" class="pb_font-18">Commercial Litigation</a>
+                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="false" aria-controls="exampleAccordion3" class="pb_font-18"><%= __('why.p3.title') %></a>
                 <div id="exampleAccordion3" class="collapse" role="tabpanel">
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                  <p><%= __('why.p3.description') %></p>
                 </div>
               </div>
               <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" aria-expanded="false" aria-controls="exampleAccordion4" class="pb_font-18">Injury Compensation</a>
+                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" aria-expanded="false" aria-controls="exampleAccordion4" class="pb_font-18"><%= __('why.p4.title') %></a>
                 <div id="exampleAccordion4" class="collapse" role="tabpanel">
-                  <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                  <p><%= __('why.p4.description') %></p>
                 </div>
               </div>
             </div>
@@ -143,8 +142,8 @@
           <a href="#" class="link-block">
             <img src="assets/images/1900x1200_img_4.jpg" alt="" class="img-fluid">
             <div class="slide-text">
-              <h2>Criminal Law</h2>
-              <p>Read More</p>
+              <h2><%= __('why.i1.title') %></h2>
+              <p><%= __('why.i1.description') %></p>
             </div>
           </a>
         </div>
@@ -152,8 +151,8 @@
           <a href="#" class="link-block">
             <img src="assets/images/1900x1200_img_2.jpg" alt="" class="img-fluid">
             <div class="slide-text">
-              <h2>Migration Law</h2>
-              <span>Read More</span>
+              <h2><%= __('why.i2.title') %></h2>
+              <span><%= __('why.i2.description') %></span>
             </div>
           </a>
         </div>
@@ -161,8 +160,8 @@
           <a href="#" class="link-block">
             <img src="assets/images/1900x1200_img_3.jpg" alt="" class="img-fluid">
             <div class="slide-text">
-              <h2>Civil Rights</h2>
-              <span>Read More</span>
+              <h2><%= __('why.i3.title') %></h2>
+              <span><%= __('why.i3.description') %></span>
             </div>
           </a>
         </div>
@@ -170,8 +169,8 @@
           <a href="#" class="link-block">
             <img src="assets/images/1900x1200_img_4.jpg" alt="" class="img-fluid">
             <div class="slide-text">
-              <h2>Property Law</h2>
-              <span>Read More</span>
+              <h2><%= __('why.i4.title') %></h2>
+              <span><%= __('why.i4.description') %></span>
             </div>
           </a>
         </div>
@@ -179,26 +178,8 @@
           <a href="#" class="link-block">
             <img src="assets/images/1900x1200_img_1.jpg" alt="" class="img-fluid">
             <div class="slide-text">
-              <h2>Civil Rights</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_2.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>State Laws</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_3.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Immigration Laws</h2>
-              <span>Read More</span>
+              <h2><%= __('why.i5.title') %></h2>
+              <span><%= __('why.i5.description') %></span>
             </div>
           </a>
         </div>
@@ -212,8 +193,8 @@
       <div class="container">
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Practicing Areas</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <h2 class="mt-0 heading-border-top font-weight-normal">><%= __('area.title') %></h2>
+            <p>><%= __('area.description') %></p>
           </div>
         </div>
 
@@ -226,10 +207,10 @@
                   <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-handcuffs"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Criminal Law</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                    <h3 class="font-weight-normal mt-0 mb-4"><%= __('area.p1.title') %></h3>
+                    <p><%= __('area.p1.description') %></p>
+                    <p><%= __('area.p1.description') %></p>
+                    <p><%= __('area.p1.description') %></p>
                   </div>
                 </div>
               </div>
@@ -239,10 +220,10 @@
                   <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_2.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-wallet"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Financial Law</h3>
-                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                    <h3 class="font-weight-normal mt-0 mb-4"><%= __('area.p2.title') %></h3>
+                    <p><%= __('area.p2.description') %></p>
 
-                    <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+                    <p><%= __('area.p2.description') %></p>
                   </div>
                 </div>
               </div>
@@ -252,10 +233,10 @@
                   <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_3.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-computer-security"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Cyber Crime Law</h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                    <h3 class="font-weight-normal mt-0 mb-4"><%= __('area.p3.title') %></h3>
+                    <p><%= __('area.p3.description') %></p>
+                    <p><%= __('area.p3.description') %></p>
+                    <p><%= __('area.p3.description') %></p>
                   </div>
                 </div>
               </div>
@@ -265,10 +246,10 @@
                   <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-courthouse"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Real Estate Law</h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her. Original article: Web Designer Notebook | Text from Dummy Text Generator</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
+                    <h3 class="font-weight-normal mt-0 mb-4"><%= __('area.p4.title') %></h3>
+                    <p><%= __('area.p4.description') %></p>
+                    <p><%= __('area.p4.description') %></p>
+                    <p><%= __('area.p4.description') %></p>
                   </div>
                 </div>
               </div>
@@ -278,10 +259,10 @@
                   <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
                   <div class="slide_content-text text-center">
                     <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-jury"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Family Law</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
+                    <h3 class="font-weight-normal mt-0 mb-4"><%= __('area.p5.title') %></h3>
+                    <p><%= __('area.p5.description') %></p>
+                    <p><%= __('area.p5.description') %></p>
+                    <p><%= __('area.p5.description') %></p>
                   </div>
                 </div>
               </div>

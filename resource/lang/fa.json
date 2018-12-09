@@ -1,5 +1,5 @@
 {
-	"title": "پرتال داخلی مکعب آبی",
+	"title": "عدالت",
 	"description": "سامانه ارطباتات داخلی شرکت فرا پردازان مکعب آبی",
 	"task": {
 		"title": "مدیریت فعالیت ها",
@@ -8,15 +8,97 @@
 	"home": {
 		"name": "خانه",
 		"title": "انعکاس عدالت",
-		"description": "موسسه حقوقی اعکعاس عدالت ",
-		"button": "مشاوره رایگان",
-		"description1": "home.description1",
-		"description2": "home.description2"
+		"description": "موسسه حقوقی انعکاس عدالت مهر کیان ",
+		"button": "مشاوره رایگان"
 	},
 	"about": {
 		"name": "درباره ما",
-		"title": "Who We Are",
-		"descriptionp1": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
-		"descriptionp2": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+		"title": "درباره انعکاس عدالت",
+		"descriptionp1": "انعکاس عدالت موسسه ای است با بیش از سه دهه تجربه در تمامی موارد حقوقی و کیفری ... امروزه وکلای زیادی آماده خدمت رسانی به مردم می باشند اما آنچه آنها را از یکدیگر متمایز می نماید، میزان تجربه وکلا و میزان مراجعین آنها و به دست آوردن نتایج دلخواه انهاست. یک وکیل خبره و باتجربه همواره از طریق درست کاری و علم خود بین مردم مطرح می شود و هیچگاه اقدام به ارائه تبلیغات دروغین نمی نماید.",
+		"descriptionp2": "انعکاس عدالت با استفاده از بهترین و مجربترین وکلای کشور اعم از قضات بازنشسته دادگستری و اساتید دانشگاه ها و... سعی در ارایه بهترین نتایج برای شما عزیزان دارد",
+		"p1": {
+			"title": "گروه وکلا",
+			"description": "گروه وکلا.description"
+		},
+		"p2": {
+			"title": "هیچ کس بالاتر از قانون نیست",
+			"description": "هیچ کس بالاتر از قانون نیست.description"
+		},
+		"p3": {
+			"title": "تالار عدالت",
+			"description": "تالار عدالت.description"
+		},
+		"consultation": {
+			"title": "مشاوره رایگان",
+			"description": "مشاوره رایگان.description",
+			"button": "شروع کنید"
+		}
+	},
+	"why": {
+		"name": "چرا ما",
+		"title": "چرا انعکاس عدالت",
+		"description": "description",
+		"p1": {
+			"title": "قانون مالکیت و کسب و کار",
+			"description": "قانون مالکیت و کسب و کار.description"
+		},
+		"p2": {
+			"title": "قانون خانواده",
+			"description": "قانون خانواده.description"
+		},
+		"p3": {
+			"title": "دعوی تجاری",
+			"description": "دعوی تجاری.description"
+		},
+		"p4": {
+			"title": "جبران خسارت",
+			"description": "جبران خسارت.description"
+		},
+		"i1": {
+			"title": "قوانین کیفری",
+			"description": "ادامه مطلب"
+		},
+		"i2": {
+			"title": "قوانین مهاجرت",
+			"description": "ادامه مطلب"
+		},
+		"i3": {
+			"title": "حقوق شهروندی",
+			"description": "ادامه مطلب"
+		},
+		"i4": {
+			"title": "قوانین مالکیت",
+			"description": "ادامه مطلب"
+		},
+		"i5": {
+			"title": "قوانین خانواده",
+			"description": "قوانین خانواده.description"
+		}
+	},
+	"area": {
+		"name": "حوزه کاری",
+		"title": "حوزه کاری انعکاس عدالت",
+		"description": "توضضیحات ",
+		"button": "مشاوره رایگان",
+		"p1": {
+			"title": "قوانین کیفری",
+			"description": "قوانین کیفری.description"
+		},
+		"p2": {
+			"title": "قوانین مالی",
+			"description": "قانون مالی.description"
+		},
+		"p3": {
+			"title": "قوانین جرایم سایبری",
+			"description": "قوانین جرایم سایبری.description"
+		},
+		"p4": {
+			"title": "قوانین املاک و مستغلات",
+			"description": "قوانین املاک و مستغلات.description"
+		}
+		,"p5": {
+			"title": "قوانین خانواده",
+			"description": "قوانین خانواده.description"
+		}
 	}
 }
