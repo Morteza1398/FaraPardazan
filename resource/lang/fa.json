@@ -1,105 +1,97 @@
 {
-	"title": "عدالت",
-	"description": "سامانه ارطباتات داخلی شرکت فرا پردازان مکعب آبی",
-	"task": {
-		"title": "مدیریت فعالیت ها",
-		"description": "سامانه فعالیت های اعضای شرکت فراپردازان نکعب آبی"
-	},
 	"home": {
-		"name": "خانه",
-		"title": "انعکاس عدالت",
-		"description": "موسسه حقوقی انعکاس عدالت مهر کیان ",
-		"button": "مشاوره رایگان"
+		"description": "home.description",
+		"button": "home.button",
+		"title": "home.title",
+		"name": "home.name"
 	},
 	"about": {
-		"name": "درباره ما",
-		"title": "درباره انعکاس عدالت",
-		"descriptionp1": "انعکاس عدالت موسسه ای است با بیش از سه دهه تجربه در تمامی موارد حقوقی و کیفری ... امروزه وکلای زیادی آماده خدمت رسانی به مردم می باشند اما آنچه آنها را از یکدیگر متمایز می نماید، میزان تجربه وکلا و میزان مراجعین آنها و به دست آوردن نتایج دلخواه انهاست. یک وکیل خبره و باتجربه همواره از طریق درست کاری و علم خود بین مردم مطرح می شود و هیچگاه اقدام به ارائه تبلیغات دروغین نمی نماید.",
-		"descriptionp2": "انعکاس عدالت با استفاده از بهترین و مجربترین وکلای کشور اعم از قضات بازنشسته دادگستری و اساتید دانشگاه ها و... سعی در ارایه بهترین نتایج برای شما عزیزان دارد",
+		"title": "about.title",
+		"descriptionp1": "about.descriptionp1",
+		"descriptionp2": "about.descriptionp2",
 		"p1": {
-			"title": "گروه وکلا انعکاس عدالت",
+			"title": "about.p1.title",
 			"description": "about.p1.description"
 		},
 		"p2": {
-			"title": "هیچ کس بالاتر از قانون نیست",
-			"description": "هیچ کس بالاتر از قانون نیست.description"
+			"title": "about.p2.title",
+			"description": "about.p2.description"
 		},
 		"p3": {
-			"title": "تالار عدالت",
-			"description": "تالار عدالت.description"
+			"title": "about.p3.title",
+			"description": "about.p3.description"
 		},
 		"consultation": {
-			"title": "مشاوره رایگان",
-			"description": "امکان مشاوره رایگان حضوری و غیر حضوری در انعکاس عدالت مشاوره با متخصصین حقوقی، گامی موثر در پیشگیری از بروز مشکلات و گزینش شایسته ترین مسیرها و راه حل ها در مواجهه با دعاوی و مسائل حقوقی  و کیفری است. موسسه انعکاس عدالت مفتخر است خدمات مشاوره حقوقی تخصصی را در زمینه های مختلف به متقاضیان ارائه نماید.",
-			"button": "شروع کنید"
-		}
+			"title": "about.consultation.title",
+			"description": "about.consultation.description",
+			"button": "about.consultation.button"
+		},
+		"name": "about.name"
 	},
 	"why": {
-		"name": "چرا ما",
-		"title": "چرا انعکاس عدالت",
-		"": "description انعکاس عدالت موسسه ای است خصوصی، متشکل از حقوقدانان،وکلای پایه یک دادگستری و اساتید دانشگاه های کشور که به ارائه خدمات مشاوره حقوقی، وکالت در دعاوی و حل و فصل اختلافات،انجام امور قراردادها و ارائه خدمات حقوقی می پردازد. اهتمام اعضای موسسه این است که درخصوص هر مقوله حقوقی ، از حقوقدان متخصص و متعهد بهره برده و مطلوبترین و کوتاهترین مسیر را برای رفع یک اختلاف و احقاق حقوق موکلین طی نمایند. ",
+		"title": "why.title",
+		"description": "why.description",
 		"p1": {
-			"title": "دعاوی حقوقی",
-			"description": "قانون مدنی و قوانین خاص"
+			"title": "why.p1.title",
+			"description": "why.p1.description"
 		},
 		"p2": {
-			"title": "دعاوی کیفری",
-			"description": "قانون مجازات اسلامی"
+			"title": "why.p2.title",
+			"description": "why.p2.description"
 		},
 		"p3": {
-			"title": "دعاوی خانوادگی",
-			"description": "قانون خانواده"
+			"title": "why.p3.title",
+			"description": "why.p3.description"
 		},
 		"p4": {
-			"title": "دعاوی تجاری",
-			"description": " قانون تجارت "
+			"title": "why.p4.title",
+			"description": "why.p4.description"
 		},
 		"i1": {
-			"title": "دعاوی ثبتی",
-			"description": "قانون ثبت"
+			"title": "why.i1.title",
+			"description": "why.i1.description"
 		},
 		"i2": {
-			"title": " دعاوی بین المللی ",
-			"description": "حقوق بین الملل "
+			"title": "why.i2.title",
+			"description": "why.i2.description"
 		},
 		"i3": {
-			"title": "دعاوی ویژه روحانیت ",
-			"description": "دادسرا و دادگاه ویژه روحانیت"
+			"title": "why.i3.title",
+			"description": "why.i3.description"
 		},
 		"i4": {
-			"title": "دعاوی انتظامی ",
-			"description": "دادسرا و دادگاه نظامی "
+			"title": "why.i4.title",
+			"description": "why.i4.description"
 		},
 		"i5": {
-			"title": "دعاوی امور حسبی ",
-			"description": "قانون امور حسبی "
+			"title": "why.i5.title",
+			"description": "why.i5.description"
 		},
-		"description": "why.description"
+		"name": "why.name"
 	},
 	"area": {
-		"name": "حوزه کاری",
-		"title": "حوزه کاری انعکاس عدالت",
-		"description": "توضضیحات ",
-		"button": "مشاوره رایگان",
+		"title": "area.title",
+		"description": "area.description",
 		"p1": {
-			"title": "قوانین کیفری",
-			"description": "قوانین کیفری.description"
+			"title": "area.p1.title",
+			"description": "area.p1.description"
 		},
 		"p2": {
-			"title": "قوانین مالی",
-			"description": "قانون مالی.description"
+			"title": "area.p2.title",
+			"description": "area.p2.description"
 		},
 		"p3": {
-			"title": "قوانین جرایم سایبری",
-			"description": "قوانین جرایم سایبری.description"
+			"title": "area.p3.title",
+			"description": "area.p3.description"
 		},
 		"p4": {
-			"title": "قوانین املاک و مستغلات",
-			"description": "قوانین املاک و مستغلات.description"
+			"title": "area.p4.title",
+			"description": "area.p4.description"
 		},
 		"p5": {
-			"title": "قوانین خانواده",
-			"description": "قوانین خانواده.description"
+			"title": "area.p5.title",
+			"description": "area.p5.description"
 		}
-	}
+	},
+	"title": "title"
 }
